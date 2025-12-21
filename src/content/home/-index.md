@@ -1,9 +1,6 @@
 ---
-image: "@assets/astrogon-star.svg"
-imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
-button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+image: "@assets/wcc-logo.png"
+imageAlt: West Coast Code logo
+title: West Coast Code
+content: We're just chillin, check back soon!
 ---

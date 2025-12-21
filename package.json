@@ -1,8 +1,8 @@
 {
-  "name": "Astrogon",
+  "name": "WestCoastCode",
   "version": "1.0.0",
-  "description": "Template.",
-  "author": "Jane Doe",
+  "description": "WestCoastCode landing page built from Astrogen",
+  "author": "jbend",
   "license": "MIT",
   "packageManager": "npm@10.8.2",
   "scripts": {
@@ -12,8 +12,8 @@
     "format": "prettier -w ./src"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.4",
     "@astrojs/mdx": "^4.3.4",
+    "@astrojs/node": "^9.5.1",
     "@astrojs/react": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.5.0",
@@ -28,16 +28,11 @@
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
-    "katex": "^0.16.21",
     "marked": "^6.0.0",
     "prettier-plugin-astro": "^0.11.0",
     "prettier-plugin-tailwindcss": "^0.4.1",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
-    "react-lite-youtube-embed": "^2.3.52",
-    "rehype-katex": "^7.0.1",
     "remark-collapse": "^0.1.2",
     "remark-math": "^6.0.0",
     "remark-toc": "^8.0.1",
@@ -62,7 +57,6 @@
     "sass": "^1.64.2",
     "tailwind-bootstrap-grid": "^5.0.1",
     "tailwindcss": "^3.3.3",
-    "typescript": "5.1.6",
-    "wrangler": "^4.24.0"
+    "typescript": "5.1.6"
   }
 }

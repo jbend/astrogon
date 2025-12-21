@@ -71,14 +71,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
-}
-
-.katex {
-  .base {
-    @apply text-txt-s dark:text-darkmode-txt-s;
-  }
 }
 
 html.dark .astro-code,
