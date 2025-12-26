@@ -1,5 +1,4 @@
 import mdx from "@astrojs/mdx";
-import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import AutoImport from "astro-auto-import";
@@ -18,11 +17,8 @@ export default defineConfig({
   prefetch: {
     prefetchAll: true,
   },
-  adapter: node({
-    mode: "standalone",
-  }),
+  output: "static",
   integrations: [
-    react(),
     sitemap(),
     tailwind({
       config: {
